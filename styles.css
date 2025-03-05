@@ -1,0 +1,47 @@
+/* General body and font settings */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the navigation bar */
+nav {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+/* Style the navigation bar list */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Style each item in the nav list */
+nav ul li {
+    display: inline;
+}
+
+/* Style for the navigation links */
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+}
+
+/* Hover effect for links */
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Add padding to the body */
+body {
+    padding-top: 50px;
+}
